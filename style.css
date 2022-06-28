@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto+Slab:wght@500&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #e96363;
+  /* border: 1px solid red !important; */
+}
+
+header {
+  display: flex;
+  font-size: 23px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+  color: black;
+  font-family: "Roboto Slab", sans-serif;
+}
+
+body,
+html {
+  height: 100%;
+  margin: 0;
+  font-size: 16px;
+  font-family: "lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.8em;
+  color: rgb(58, 55, 55);
+}
+
+li {
+  font-family: "Montserra", sans-serif;
+  font-weight: 500;
+  color: #edf0f1;
+  text-decoration: none;
+}
+
+.nav--links {
+  list-style: none;
+}
+
+.nav--links li {
+  display: inline-block;
+  padding: 0 20px;
+}
+
+button {
+  padding: 13px 25px;
+  background-color: rgb(104, 14, 75, 0.5);
+  border: none;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 5px 10px 20px;
+}
+
+button:hover {
+  background-color: rgb(66, 3, 61, 0.5);
+  transform: scale(1.1);
+}
+
+.pimg1 {
+  height: 600px;
+  background-image: url("pexels-soumil-kumar-735911.jpg");
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.pimg2 {
+  height: 300px;
+  background-image: url("pexels-negative-space-34600.jpg");
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.div--text {
+  height: 500px;
+  width: 100%;
+}
+
+.text1 {
+  font-size: 30px;
+  font-weight: 550;
+  margin: 0 auto 0 200px;
+  padding-top: 200px;
+  width: 70%;
+  height: 100%;
+  color: black;
+}
+
+.Bill-Gates--img {
+  position: relative;
+  border-radius: 50%;
+  height: 300px;
+}
+
+.img1 {
+  height: 500px;
+  padding-top: 120px;
+  margin-right: 100px;
+}
+
+.text2 {
+  font-size: 20px;
+  font-weight: 500;
+  margin: 200px 150px 200px auto;
+  padding: 100px auto;
+  width: 80%;
+  height: 100%;
+  color: black;
+}
+
+.Tomas-Souza--img {
+  position: relative;
+  border-radius: 50%;
+  height: 300px;
+}
+
+.img2 {
+  height: 500px;
+  padding-top: 100px;
+  margin-left: 100px;
+}
+
+hr {
+  width: 90%;
+  border: 1px solid black;
+  margin: 0 auto;
+}
+
+.footer {
+  height: 50px;
+  width: 100%;
+  padding-top: 10px;
+  text-align: center;
+}
