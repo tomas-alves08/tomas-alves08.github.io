@@ -5,12 +5,13 @@
   margin: 0;
   padding: 0;
   background-color: #e96363;
-  /* border: 1px solid red !important; */
+  border: 1px solid red !important;
 }
 
 header {
   display: flex;
   font-size: 23px;
+  line-height: 50px;
   justify-content: space-between;
   align-items: center;
   padding: 30px 10%;
@@ -29,7 +30,7 @@ html {
   color: rgb(58, 55, 55);
 }
 
-li {
+header li {
   font-family: "Montserra", sans-serif;
   font-weight: 500;
   color: #edf0f1;
@@ -42,13 +43,14 @@ li {
 
 .nav--links li {
   display: inline-block;
-  padding: 0 20px;
+  padding: 0 5px;
 }
 
 button {
-  padding: 13px 25px;
+  padding: 13px 30px;
   background-color: rgb(104, 14, 75, 0.5);
   border: none;
+  margin: 10px auto;
   font-size: 18px;
   font-weight: 600;
   border-radius: 8px;
@@ -67,7 +69,7 @@ button:hover {
   position: relative;
   background-position: center;
   background-size: cover;
-  background-attachment: fixed;
+  background-attachment: scroll;
 }
 
 .pimg2 {
@@ -76,21 +78,22 @@ button:hover {
   position: relative;
   background-position: center;
   background-size: cover;
-  background-attachment: fixed;
+  background-attachment: scroll;
 }
 
 .div--text {
-  height: 500px;
+  height: 300px;
   width: 100%;
 }
 
 .text1 {
   font-size: 30px;
   font-weight: 550;
-  margin: 0 auto 0 200px;
-  padding-top: 200px;
-  width: 70%;
-  height: 100%;
+  margin: auto;
+  text-align: center;
+  margin: 180px auto 100px;
+  width: 50%;
+  height: 600px;
   color: black;
 }
 
@@ -101,15 +104,15 @@ button:hover {
 }
 
 .img1 {
-  height: 500px;
-  padding-top: 120px;
-  margin-right: 100px;
+  height: 400px;
+  padding-top: 30px;
+  text-align: center;
 }
 
 .text2 {
   font-size: 20px;
   font-weight: 500;
-  margin: 200px 150px 200px auto;
+  margin: 200px auto 50px;
   padding: 100px auto;
   width: 80%;
   height: 100%;
@@ -122,10 +125,43 @@ button:hover {
   height: 300px;
 }
 
+@media screen and (max-width: 1100px) {
+  .Bill-Gates--img,
+  .Tomas-Souza--img {
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .Bill-Gates--img {
+    margin-top: 60px;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .text1 {
+    font-size: 25px;
+  }
+}
+
+/* @media screen and (max-width: 700px) {
+  .Bill-Gates--img {
+    margin-top: 90px;
+  }
+} */
+
+@media screen and (max-width: 700px) {
+  .text1 {
+    font-size: 22px;
+    margin-top: 120px;
+  }
+}
+
 .img2 {
-  height: 500px;
-  padding-top: 100px;
-  margin-left: 100px;
+  height: 300px;
+  padding: 0 auto;
+  margin-bottom: 200px;
+  text-align: center;
 }
 
 hr {
