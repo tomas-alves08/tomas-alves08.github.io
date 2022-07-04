@@ -29,6 +29,19 @@ html {
   color: black;
   background-color: #b4aeae;
 }
+
+@media screen and (max-width: 800px) {
+  header {
+    font-size: 18px;
+  }
+  .values--content h1 {
+    font-size: 22px;
+  }
+  .values--content h2 {
+    font-size: 18px;
+  }
+}
+
 hr {
   width: 90%;
   border: 1px solid black;
@@ -39,13 +52,16 @@ hr {
 }
 
 .home {
-  margin: 50px auto;
-  padding: 0 150px 50px;
   color: black;
 }
 
 .home:hover {
   color: rgb(226, 86, 43);
+}
+
+.link--home {
+  width: 100%;
+  text-align: center;
 }
 
 .content {
@@ -56,8 +72,7 @@ hr {
 
 .values--content {
   padding: 0 50px 50px;
-  text-align: justify;
-  text-justify: inter-word;
+  text-align: left;
 }
 
 .values--content h1 {
@@ -76,15 +91,4 @@ h2 {
   width: 100%;
   padding-top: 10px;
   text-align: center;
-}
-
-.home2 {
-  padding-right: 150px;
-  padding-bottom: 50px;
-  float: right;
-  color: black;
-}
-
-.home2:hover {
-  color: rgb(226, 86, 43);
 }
