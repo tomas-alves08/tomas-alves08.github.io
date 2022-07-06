@@ -88,6 +88,12 @@ hr {
   text-align: center;
 }
 
+@media screen and (max-width: 500px) {
+  .img {
+    width: 80%;
+  }
+}
+
 hr {
   width: 90%;
   border: 1px solid black;

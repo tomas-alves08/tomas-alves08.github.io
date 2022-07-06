@@ -107,7 +107,7 @@ button:hover {
 
 .pimg1 {
   height: 600px;
-  background-image: url("pexels-soumil-kumar-735911.jpg");
+  background-image: url("../images/pexels-soumil-kumar-735911.jpg");
   position: relative;
   background-position: center;
   background-size: cover;
@@ -116,7 +116,7 @@ button:hover {
 
 .pimg2 {
   height: 300px;
-  background-image: url("pexels-negative-space-34600.jpg");
+  background-image: url("../images/pexels-negative-space-34600.jpg");
   position: relative;
   background-position: center;
   background-size: cover;
