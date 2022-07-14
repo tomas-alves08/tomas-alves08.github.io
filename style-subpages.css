@@ -40,6 +40,9 @@ html {
   .values--content h2 {
     font-size: 18px;
   }
+  .values--content h3 {
+    font-size: 16px;
+  }
 }
 
 hr {
@@ -70,9 +73,21 @@ hr {
   background-color: rgb(97, 136, 158, 0.7);
 }
 
+@media screen and (max-width: 1200px) {
+  .content {
+    width: 95%;
+  }
+}
+
 .values--content {
   padding: 0 50px 50px;
   text-align: left;
+}
+
+@media screen and (max-width: 800px) {
+  .values--content {
+    padding: 0 20px 50px;
+  }
 }
 
 .values--content h1 {
@@ -81,9 +96,14 @@ hr {
 }
 
 .values--content p,
-h2 {
+h2,
+h3 {
   line-height: 30px;
   padding: 10px 20px 0;
+}
+
+.list {
+  padding: 5px 50px 0;
 }
 
 .footer {
@@ -91,4 +111,41 @@ h2 {
   width: 100%;
   padding-top: 10px;
   text-align: center;
+}
+
+.image {
+  width: 800px;
+  border-radius: 3px;
+  opacity: 0.95;
+  margin: 5px 30px;
+}
+
+@media screen and (max-width: 1200px) {
+  .image {
+    width: 90%;
+    margin: 5px 10px;
+  }
+}
+
+.tenor-gif-embed {
+  margin: 20px 30px;
+}
+
+@media screen and (max-width: 800px) {
+  .tenor-gif-embed {
+    margin: 20px auto;
+  }
+}
+
+.video {
+  width: 600px;
+  margin: 5px 30px;
+}
+
+@media screen and (max-width: 900px) {
+  .video {
+    width: 95%;
+    height: 40vh;
+    margin: 5px 10px;
+  }
 }
